@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Base-Api/Base-Api.iml" filepath="$PROJECT_DIR$/Base-Api/Base-Api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Base-Domain/Base-Domain.iml" filepath="$PROJECT_DIR$/Base-Domain/Base-Domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Base-SSM-project.iml" filepath="$PROJECT_DIR$/Base-SSM-project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Base-Service/Base-Service.iml" filepath="$PROJECT_DIR$/Base-Service/Base-Service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Base-Tools/Base-Tools.iml" filepath="$PROJECT_DIR$/Base-Tools/Base-Tools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Base-Web/Base-Web.iml" filepath="$PROJECT_DIR$/Base-Web/Base-Web.iml" />
+    </modules>
+  </component>
+</project>

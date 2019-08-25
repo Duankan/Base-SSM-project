@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Base-Api" />
+        <module name="Base-Domain" />
+        <module name="Base-Root" />
+        <module name="Base-Service" />
+        <module name="Base-Tools" />
+        <module name="Base-Web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Base-Api" target="1.8" />
+      <module name="Base-Domain" target="1.8" />
+      <module name="Base-Root" target="1.8" />
+      <module name="Base-Service" target="1.8" />
+      <module name="Base-SSM-project" target="1.8" />
+      <module name="Base-Tools" target="1.8" />
+      <module name="Base-Web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
