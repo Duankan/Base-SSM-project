@@ -11,7 +11,6 @@
         <module>Base-Api</module>
         <module>Base-Web</module>
         <module>Base-Domain</module>
-        <module>Base-Service</module>
     </modules>
     <packaging>pom</packaging>
     <name>Base-SSM-project</name>
@@ -51,7 +50,7 @@
     <!--预定义依赖项-->
     <dependencyManagement>
         <dependencies>
-            <!-->>>>>>ssm基础包<<<<<<-->
+            <!--###ssm基础包###-->
             <!--commons依赖包-->
             <dependency>
                 <groupId>commons-fileupload</groupId>

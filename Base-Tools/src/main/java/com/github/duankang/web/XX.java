@@ -1,4 +1,4 @@
-package com.github.duankang;
+package com.github.duankang.web;
 
 public class XX {
     private String name;
