@@ -49,7 +49,7 @@
 
   <!-- 配置欢迎页 -->
   <welcome-file-list>
-    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>IframeHgxfxStartAnalysis.html</welcome-file>
   </welcome-file-list>
 
 </web-app>

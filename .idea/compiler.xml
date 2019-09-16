@@ -17,7 +17,6 @@
     <bytecodeTargetLevel>
       <module name="Base-Api" target="1.8" />
       <module name="Base-Domain" target="1.8" />
-      <module name="Base-Root" target="1.8" />
       <module name="Base-Service" target="1.8" />
       <module name="Base-SSM-project" target="1.8" />
       <module name="Base-Tools" target="1.8" />

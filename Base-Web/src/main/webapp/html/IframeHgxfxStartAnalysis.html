@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--嵌套通用压盖分析-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>带图审批</title>
+    <script src="../js/jquery.js"></script>
+    <style>
+        body {
+            width: 100%;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .home {
+            width: 100%;
+            height: 100%;
+        }
+
+        iframe {
+            width: 100%;
+            height: 97%;
+        }
+    </style>
+</head>
+<body>
+<div class="home">
+    <iframe id="iframeUrl"></iframe>
+    <!--src="http://localhost:8080/#/NoHeaderAnalysis?configId=402881d66cbc4975016cbc505b520000&operate=view&select=0,1,2&wkt=MULTIPOLYGON(((112.81946182250977 28.03882598876953,112.80984878540039 28.028011322021484,112.8156852722168 28.022174835205078,112.83336639404297 28.02165985107422,112.83645629882812 28.035564422607422,112.81946182250977 28.03882598876953)))"></iframe>-->
+</div>
+</body>
+<script type="text/javascript">
+    $(window).ready(function () {
+        //向iframe发送post请求
+        var wkts = [];
+        wkts.push('MULTIPOLYGON(((112.81946182250977 28.03882598876953,112.80984878540039 28.028011322021484,112.8156852722168 28.022174835205078,112.83336639404297 28.02165985107422,112.83645629882812 28.035564422607422,112.81946182250977 28.03882598876953)))');
+        var config_custom = {
+            configId: '402881d66cbc4975016cbc505b520000',
+            operate: 'view',
+            showHome: false,
+            wkt: wkts,
+            select: '0,1,2'
+        };
+        var parse_url = "http://localhost:8080/#/NoHeaderAnalysis";
+        document.getElementById('iframeUrl').src = parse_url;
+        document.getElementById('iframeUrl').onload = function () {
+            document.getElementById('iframeUrl').contentWindow.postMessage(config_custom, parse_url);
+        }
+    });
+</script>
+</html>
