@@ -1,0 +1,92 @@
+[
+  {
+    "key": "name",
+    "title": "行政区    类型",
+    "width": 100,
+    "align": "center"
+  },
+  {
+    "key": "total",
+    "title": "合计",
+    "width": 100,
+    "align": "center"
+  },
+  {
+    "key": "GD",
+    "title": "耕地",
+    "width": 100,
+    "align": "center"
+  },
+  {
+    "key": "YD",
+    "title": "园地",
+    "width": 100,
+    "align": "center"
+  },
+  {
+    "key": "LD",
+    "title": "林地",
+    "width": 100,
+    "align": "center"
+  },
+  {
+    "key": "CD",
+    "title": "草地",
+    "width": 100,
+    "align": "center"
+  },
+  {
+    "key": "SFYD",
+    "title": "商服用地",
+    "width": 140,
+    "align": "center"
+  },
+  {
+    "key": "GKCCYD",
+    "title": "工矿仓储用地",
+    "width": 100,
+    "align": "center"
+  },
+  {
+    "key": "ZZYD",
+    "title": "住宅用地",
+    "width": 100,
+    "align": "center"
+  },
+  {
+    "key": "GGYGF",
+    "title": "公共管理与公共服务用地",
+    "width": 200,
+    "align": "center"
+  },
+  {
+    "key": "TSYD",
+    "title": "特殊用地",
+    "width": 100,
+    "align": "center"
+  },
+  {
+    "key": "JTYS",
+    "title": "交通运输用地",
+    "width": 120,
+    "align": "center"
+  },
+  {
+    "key": "SYJSL",
+    "title": "水域及水利设施用地",
+    "width": 180,
+    "align": "center"
+  },
+  {
+    "key": "QTTD",
+    "title": "其他土地",
+    "width": 100,
+    "align": "center"
+  },
+  {
+    "key": "CZCJGK",
+    "title": "城镇村及工矿用地",
+    "width": 160,
+    "align": "center"
+  }
+]

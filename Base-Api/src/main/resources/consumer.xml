@@ -6,7 +6,7 @@
        http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
 
     <!-- 消费方应用名称，用于计算依赖关系，不是匹配条件，不要与提供方名称一样  -->
-    <!--<dubbo:application name="demo-consumer"/>-->
+    <dubbo:application name="demo-consumer"/>
     <!-- 使用zookeeper注册中心暴露服务地址  这个很关键，弄了几天这个影响极大 -->
     <dubbo:registry protocol="zookeeper" address="127.0.0.1:2181"/>
     <!-- 使用dubbo协议，在20880端口暴露服务 -->

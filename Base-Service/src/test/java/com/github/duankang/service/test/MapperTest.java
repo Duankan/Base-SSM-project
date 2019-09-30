@@ -14,7 +14,6 @@ public class MapperTest extends BaseTest {
     @Test
     public void testConnectDB() throws Exception {
         Task task = taskMapper.selectByPrimaryKey("111");
-        System.out.println(task.getTaskid());
         System.out.println(task.getTaskname());
 //        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("classpath:provider.xml");
 //        context.start();
